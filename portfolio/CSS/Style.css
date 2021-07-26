@@ -1,0 +1,363 @@
+body{
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0)),  url(../images/pexels-tranmautritam-326503.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color:white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0.2);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
+nav ul a{
+    margin: 30px;
+    font-family: myriad pro 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:maroon;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: 000000;
+    font-size: 22px;
+}
+.active{
+    font-weight: bold;
+    color: tomato;
+}
+.textcontainer p:nth-child(1){
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+color: darkkhaki;
+font-size: 22px;
+}
+.textcontainer p:nth-child(2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: darkseagreen;
+    font-size: 60px;
+}
+.textcontainer p:nth-child(3){
+    font-family: myriad pro 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: darkslategray;
+     font-size: 30px;
+     line-height: 30px;
+    }
+.textcontainer p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.textcontainer{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%,-42%);
+}
+.textcontainer button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    position: relative;
+    overflow: hidden;
+}
+.hirebtn{
+    border: 2px solid brown;
+    color: #373636;
+}
+.downcv{
+    background-color: black;
+    color: chocolate;
+    border: none;
+}
+button:active{
+    transform: scale(1.1);
+}
+
+.aboutcontainer{
+    width: 80%;
+    height: 330px;
+    background-color: chocolate;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0.2 );
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.abouttext{
+    width: 550px;
+}
+.abouttext p:nth-child(1){
+    color: rgb(6, 1, 8);
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+.abouttext p:nth-child(2){
+    color: rgb(0, 15, 15);
+    font-size: 13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 5px;   
+}
+.abouttext p:nth-child(3),
+.abouttext p:nth-child(4){
+    color: rgb(7, 10, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.abouttext button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+.aboutcontainer img{
+  height: 250px;
+}
+.services{
+    height: 600px;
+    background-color: chocolate;
+    padding: 2% 10% 0px 10%;
+}
+.servicestext p:nth-child(1){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 15, 15);
+    font-size: 30px;
+    line-height: 0px;
+}
+.servicestext p:nth-child(2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 15, 15);
+    font-size: 15px;
+    line-height: 5px;
+}
+.servicestext p:nth-child(3){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 15, 15);
+}
+.servicestext{
+    width: 500px;
+    margin: 50px 0px;
+}
+.box1, .box2, .box3{
+     width: 300px;
+     height: 320px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     box-shadow: 2px 2px 12px rgba(0, 0, 0.3 );
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+}
+.boxcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-image: url(../images/pexels-markus-spiske-1089438.jpg);
+}
+.box2{
+    background-image: url(../images/pexels-markus-spiske-1089438.jpg);
+}
+.box3{
+    background-image: url(../images/pexels-markus-spiske-1089438.jpg);
+}
+.box1 span,
+.box2 span,
+.box3 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.box1 p:nth-child(2),
+.box2 p:nth-child(2),
+.box3 p:nth-child(2){
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    line-height: 0px;
+
+}.box1 p:nth-child(3),
+.box2 p:nth-child(3),
+.box3 p:nth-child(3){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+    color: #8f8f8f;
+}
+.box1 button,
+.box2 button,
+.box3 button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.contactme{
+    width: 100%;
+    height: 280%;
+    background-image: url(../images/pexels-rachel-claire-4577688.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactme p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid white; 
+}
+.contactme button{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    position: relative;
+    text-align: center;
+}
+h1{
+    font-family:fantasy;
+}
+footer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer P:nth-child(1){
+    font-size: 3-px;
+    font-weight: bold;
+    color: #191919;
+}
+footer p:nth-child(2){
+    font-size: 16px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+.socialicons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px 10px;
+    border-radius: 50%;
+    margin-bottom: 70px;
+}
+.socialicons{
+    display: flex;
+}
+.copyright{
+    color: gray;
+    font-size: 13px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+.socialicons i{
+    color: black;
+
+}
+.socialicons a:hover
+.socialbars a:hover{
+ background-color: black;
+ box-shadow: 2px 2px 12px rgba(0, 0, 0.2 );
+ transition: all ease 0.5s;  
+}
+.socialicons a:hover i
+.socialbars a:hover i{
+    color: white;
+    transition: all ease 0.5s;
+
+}
+.socialbars{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateX(-50%);
+}
+.socialbars a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px, 2px, 12px rgba(0, 0, 0.2 );
+}
+.socialbarsi{
+    color: darkslategray;
+    font-size: 20px;
+
+}
